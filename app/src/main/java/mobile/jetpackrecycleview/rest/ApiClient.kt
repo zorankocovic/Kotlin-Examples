@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object ApiClient {
 
 
-    var BASE_URL:String="http://panther.krezco.rs/solutions/freightfinder/jsoninternet/"
+    var BASE_URL:String="http://panther.krezco.rs/json/"
     val getClient: ApiInterface
         get() {
 

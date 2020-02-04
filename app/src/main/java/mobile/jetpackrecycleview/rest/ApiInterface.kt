@@ -7,7 +7,7 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 interface ApiInterface {
 
-    @GET("allfreight.php")
+    @GET("phpjson.php")
     // fun getPhotos(): Call<List<DataModel>>
     fun getPhotos(@Query("j") action: String): Call<List<DataModel>>
 }

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">JetPackRecycleView</string>
+    <string name="jatpack">Jet Pack</string>
+    <string name="passingdatafragments">Passing data between fragments</string>
+    <string name="mvvmexample">Mvvm example</string>
+
+
 </resources>

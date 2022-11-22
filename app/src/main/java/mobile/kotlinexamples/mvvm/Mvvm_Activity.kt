@@ -1,4 +1,4 @@
-package mobile.jetpackrecycleview.mvvm
+package mobile.kotlinexamples.mvvm
 
 import android.os.Bundle
 import android.util.Log
@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import mobile.jetpackrecycleview.R
+import mobile.kotlinexamples.R
 
 class Mvvm_Activity  : AppCompatActivity() {
     private var viewManager = LinearLayoutManager(this)

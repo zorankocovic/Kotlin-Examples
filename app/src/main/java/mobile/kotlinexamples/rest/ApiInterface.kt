@@ -1,9 +1,8 @@
-package mobile.jetpackrecycleview.rest
+package mobile.kotlinexamples.rest
 
-import mobile.jetpackrecycleview.model.DataModel
+import mobile.kotlinexamples.model.DataModel
 import retrofit2.Call
 import retrofit2.http.GET
-import retrofit2.http.Path
 import retrofit2.http.Query
 interface ApiInterface {
 

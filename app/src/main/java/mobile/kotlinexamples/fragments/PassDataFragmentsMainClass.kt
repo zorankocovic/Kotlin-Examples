@@ -1,8 +1,8 @@
-package mobile.jetpackrecycleview.fragments
+package mobile.kotlinexamples.fragments
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentTransaction
-import mobile.jetpackrecycleview.R
+import mobile.kotlinexamples.R
 
 class PassDataFragmentsMainClass : AppCompatActivity(), Communicator {
     public override fun onCreate(savedInstanceState: Bundle?) {

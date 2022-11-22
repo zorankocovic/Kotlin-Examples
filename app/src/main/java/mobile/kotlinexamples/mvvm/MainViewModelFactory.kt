@@ -1,4 +1,4 @@
-package mobile.jetpackrecycleview.mvvm
+package mobile.kotlinexamples.mvvm
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

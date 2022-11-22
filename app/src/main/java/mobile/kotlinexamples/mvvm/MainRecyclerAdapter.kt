@@ -1,4 +1,4 @@
-package mobile.jetpackrecycleview.mvvm
+package mobile.kotlinexamples.mvvm
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_mvvm.view.*
-import mobile.jetpackrecycleview.R
+import mobile.kotlinexamples.R
 
 
 class MainRecyclerAdapter (val viewModel: MainViewModel, val arrayList: ArrayList<Books>, val context: Context): RecyclerView.Adapter<MainRecyclerAdapter.NotesViewHolder>() {

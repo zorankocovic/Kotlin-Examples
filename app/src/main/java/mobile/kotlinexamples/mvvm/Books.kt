@@ -1,4 +1,4 @@
-package mobile.jetpackrecycleview.mvvm
+package mobile.kotlinexamples.mvvm
 
 data class Books(
     var title:String,

@@ -1,11 +1,11 @@
-package mobile.jetpackrecycleview.fragments
+package mobile.kotlinexamples.fragments
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragmentsend_activity.view.*
-import mobile.jetpackrecycleview.R
+import mobile.kotlinexamples.R
 
 class FragmentSend  : Fragment() {
     private lateinit var communicator: Communicator

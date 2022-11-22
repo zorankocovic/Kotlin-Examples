@@ -1,12 +1,13 @@
-package mobile.jetpackrecycleview.model.adapter
+package mobile.kotlinexamples.adapter
 
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import mobile.jetpackrecycleview.R
-import mobile.jetpackrecycleview.model.DataModel
+import androidx.recyclerview.widget.RecyclerView
+import mobile.kotlinexamples.R
+import mobile.kotlinexamples.model.DataModel
+
 
 class SectionAdapter (private var dataList: List<DataModel>) : RecyclerView.Adapter<SectionAdapter.ViewHolder>() {
 

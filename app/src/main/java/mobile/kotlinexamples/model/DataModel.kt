@@ -1,6 +1,5 @@
-package mobile.jetpackrecycleview.model
+package mobile.kotlinexamples.model
 
-import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 

@@ -1,4 +1,4 @@
-package mobile.jetpackrecycleview.rest
+package mobile.kotlinexamples.rest
 
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient

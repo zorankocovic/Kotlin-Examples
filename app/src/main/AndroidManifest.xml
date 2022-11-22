@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="mobile.jetpackrecycleview">
+          package="mobile.kotlinexamples">
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
             android:allowBackup="true"
@@ -10,7 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity">
+        <activity android:name="mobile.kotlinexamples.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -18,16 +18,16 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".jetpack.Jetpackrecycleview"
+        <activity android:name="mobile.kotlinexamples.jetpack.Jetpackrecycleview"
                 android:screenOrientation="portrait"
 
                 />
 
-        <activity android:name=".fragments.PassDataFragmentsMainClass"
+        <activity android:name="mobile.kotlinexamples.fragments.PassDataFragmentsMainClass"
                 android:screenOrientation="portrait"
 
                 />
-        <activity android:name=".mvvm.Mvvm_Activity"
+        <activity android:name="mobile.kotlinexamples.mvvm.Mvvm_Activity"
                 android:screenOrientation="portrait"
 
                 />

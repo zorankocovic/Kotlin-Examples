@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.jatpack.*
 import mobile.kotlinexamples.R
 import mobile.kotlinexamples.model.DataModel
-import mobile.kotlinexamples.model.adapter.SectionAdapter
+import mobile.kotlinexamples.adapter.SectionAdapter
 import mobile.kotlinexamples.rest.ApiClient
 import retrofit2.Call
 import retrofit2.Callback

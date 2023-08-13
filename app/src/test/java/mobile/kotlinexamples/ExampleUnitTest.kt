@@ -1,4 +1,4 @@
-package mobile.jetpackrecycleview
+package mobile.kotlinexamples
 
 import org.junit.Test
 

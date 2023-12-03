@@ -3,6 +3,6 @@
     <string name="jatpack">Jet Pack</string>
     <string name="passingdatafragments">Passing data between fragments</string>
     <string name="mvvmexample">Mvvm example</string>
-
-
+    <string name="algorithm">Algorithm examples</string>
+    <string name="popup">Popup window</string>
 </resources>

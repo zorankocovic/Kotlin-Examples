@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val jatpack_button = findViewById(R.id.jatpack_button) as Button
         val passdata_button = findViewById(R.id.passingdata_button) as Button
         val simplemvvm_button = findViewById(R.id.mvvm_button) as Button
+        val popup_button = findViewById(R.id.popupbutton) as Button
         jatpack_button.setOnClickListener {
 
             val showPhotoIntent = Intent(getApplicationContext(), Jetpackrecycleview::class.java)
@@ -42,7 +43,13 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        popup_button.setOnClickListener {
 
+            val showPhotoIntent = Intent(getApplicationContext(), Popupwindow::class.java)
+
+            startActivity(showPhotoIntent)
+
+        }
 
     }
 

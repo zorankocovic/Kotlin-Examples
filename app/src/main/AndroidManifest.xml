@@ -10,7 +10,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             android:usesCleartextTraffic="true">
-        <activity android:name="mobile.kotlinexamples.MainActivity">
+        <activity android:name="mobile.kotlinexamples.MainActivity"
+                android:exported="true"
+                >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -31,7 +34,10 @@
                 android:screenOrientation="portrait"
 
                 />
+        <activity android:name="mobile.kotlinexamples.Popupwindow"
+                android:screenOrientation="portrait"
 
+                />
 
     </application>
 

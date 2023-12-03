@@ -31,7 +31,7 @@ class Jetpackrecycleview : AppCompatActivity() {
             override fun onResponse(call: Call<List<DataModel>>?, response: Response<List<DataModel>>?) {
 
 
-                Log.d("fullnameto", response?.body()?.get(0)?.fullnameto)
+                response?.body()?.get(0)?.fullnameto?.let { Log.d("fullnameto", it) }
                 dataList.addAll(response!!.body()!!)
                 //   var adapter = SectionAdapter(Helper.Companion.getListViewModelList())
                 rvRecyclerView.adapter?.notifyDataSetChanged()

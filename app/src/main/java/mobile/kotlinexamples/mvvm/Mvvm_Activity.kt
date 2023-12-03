@@ -18,6 +18,7 @@ class Mvvm_Activity  : AppCompatActivity() {
     private lateinit var mainrecycler: RecyclerView
     private lateinit var but: Button
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_mvvm)
@@ -32,6 +33,8 @@ class Mvvm_Activity  : AppCompatActivity() {
 
         initialiseAdapter()
     }
+
+
     private fun initialiseAdapter(){
         mainrecycler.layoutManager = viewManager
         observeData()

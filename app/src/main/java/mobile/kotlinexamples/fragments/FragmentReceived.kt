@@ -8,15 +8,22 @@ import kotlinx.android.synthetic.main.fragmentreceived_activity.view.*
 import mobile.kotlinexamples.R
 
 class FragmentReceived  : Fragment() {
-    var inputText: String? = ""
+    var productnameText: String? = ""
+    var quantityText: String? = ""
+    var PriceText: String? = ""
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val rootView = inflater.inflate(R.layout.fragmentreceived_activity, container, false)
-        inputText = arguments?.getString("inputText")
-        rootView.outPutTextView.text = inputText
+        productnameText = arguments?.getString("inputText")
+        quantityText = arguments?.getString("quantityText")
+        PriceText = arguments?.getString("PriceText")
+
+        rootView.productname.text = productnameText
+        rootView.productquantity.text = quantityText
+        rootView.priceText.text = PriceText
         return rootView
     }
 }

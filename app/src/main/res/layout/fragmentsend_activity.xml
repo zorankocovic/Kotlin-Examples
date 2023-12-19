@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+
         android:orientation="vertical"
         android:padding="8dp">
     <EditText
@@ -10,10 +10,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:hint="Enter your message"
+            android:hint="Product name"
             android:textColorHint="@android:color/background_dark"
             android:textSize="16sp"
             android:textStyle="bold" />
+    <EditText
+            android:id="@+id/editquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Quantity"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    <EditText
+            android:id="@+id/editprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Price"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
     <Button
             android:id="@+id/btnSend"
             android:layout_width="wrap_content"

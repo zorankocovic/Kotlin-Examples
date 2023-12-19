@@ -17,7 +17,10 @@ class FragmentSend  : Fragment() {
         val rootView = inflater.inflate(R.layout.fragmentsend_activity, container, false) as ViewGroup
         communicator = activity as Communicator
         rootView.btnSend.setOnClickListener {
-            communicator.passData(rootView.editText.text.toString())
+            communicator.passData(rootView.editText.text.toString(),rootView.editquantity.text.toString(),rootView.editprice.text.toString())
+
+
+
         }
         return rootView
     }

@@ -12,9 +12,12 @@ class PassDataFragmentsMainClass : AppCompatActivity(), Communicator {
         supportFragmentManager.beginTransaction().replace(R.id.relativeLayout, firstFragment)
             .commit()
     }
-    override fun passData(editTextInput: String) {
+    override fun passData(editTextInput: String,edtitquantity:String,editPrice:String) {
         val bundle = Bundle()
         bundle.putString("inputText", editTextInput)
+        bundle.putString("quantityText", edtitquantity)
+        bundle.putString("PriceText", editPrice)
+
         val transaction = this.supportFragmentManager.beginTransaction()
         val fragmentTwo = FragmentReceived()
         fragmentTwo.arguments = bundle

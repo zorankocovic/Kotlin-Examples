@@ -16,6 +16,8 @@ class Jetpackrecycleview : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.jatpack)
+        val actionbar = supportActionBar
+        actionbar!!.title = "Jat pack recyclerView"
         rvRecyclerView.adapter= SectionAdapter(dataList)
         // rvRecyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rvRecyclerView.setLayoutManager(LinearLayoutManager(this));

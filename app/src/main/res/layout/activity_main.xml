@@ -6,6 +6,19 @@
         android:orientation="vertical">
 
     <Button
+            android:id="@+id/passingdata_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mb"
+
+            android:text="@string/passingdatafragments"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            />
+
+    <Button
             android:id="@+id/jatpack_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,18 +31,7 @@
             android:paddingBottom="30dp"
             />
 
-    <Button
-            android:id="@+id/passingdata_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mb"
 
-            android:text="@string/passingdatafragments"
-            android:paddingTop="30dp"
-            android:paddingBottom="30dp"
-            />
     <Button
             android:id="@+id/mvvm_button"
             android:layout_width="match_parent"
@@ -51,6 +53,32 @@
             app:layout_constraintTop_toBottomOf="@+id/mb"
 
             android:text="@string/popup"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            />
+
+    <Button
+            android:id="@+id/systembutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popupbutton"
+
+            android:text="@string/system"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            />
+
+    <Button
+            android:id="@+id/bottomnavigationbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/systembutton"
+
+            android:text="Bottom navigation"
             android:paddingTop="30dp"
             android:paddingBottom="30dp"
             />

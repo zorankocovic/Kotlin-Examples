@@ -1,8 +1,26 @@
 <resources>
     <string name="app_name">Kotlin examples</string>
-    <string name="jatpack">Jet Pack</string>
+    <string name="jatpack">Jet Pack RecyclerView</string>
     <string name="passingdatafragments">Passing data between fragments</string>
     <string name="mvvmexample">Mvvm example</string>
     <string name="algorithm">Algorithm examples</string>
     <string name="popup">Popup window</string>
+    <string name="system">System information</string>
+    <string name="screendata">Screen data</string>
+    <string name="phonedetails">Phone details</string>
+    <string name="send_data">Send data</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Underscope Map</string>
+    <string name="nav_header_subtitle">office@underscopemap.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_nav_item1">Item 1</string>
+    <string name="menu_nav_item2">Item 2</string>
+    <string name="menu_navsubmenu1">Sub Item 1</string>
+    <string name="menu_navsubmenu2">Sub Item 2</string>
+    <string name="menu_navsubmenu3">Sub Item 3</string>
+
+
+
+
 </resources>

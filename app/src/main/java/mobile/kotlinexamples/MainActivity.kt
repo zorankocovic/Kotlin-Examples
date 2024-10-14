@@ -7,7 +7,8 @@ import android.widget.Button
 import mobile.kotlinexamples.fragments.PassDataFragmentsMainClass
 import mobile.kotlinexamples.jetpack.Jetpackrecycleview
 import mobile.kotlinexamples.model.DataModel
-import mobile.kotlinexamples.mvvm.Mvvm_Activity
+import mobile.kotlinexamples.mvvm.ProductInputActivity
+import mobile.kotlinexamples.navigation.Bottom_navigation
 
 class MainActivity : AppCompatActivity() {
     var dataList = ArrayList<DataModel>()
@@ -18,6 +19,11 @@ class MainActivity : AppCompatActivity() {
         val passdata_button = findViewById(R.id.passingdata_button) as Button
         val simplemvvm_button = findViewById(R.id.mvvm_button) as Button
         val popup_button = findViewById(R.id.popupbutton) as Button
+        val systemcode_button = findViewById(R.id.systembutton) as Button
+        val bottomnavigationbutton = findViewById(R.id.bottomnavigationbutton) as Button
+
+
+
         jatpack_button.setOnClickListener {
 
             val showPhotoIntent = Intent(getApplicationContext(), Jetpackrecycleview::class.java)
@@ -37,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         simplemvvm_button.setOnClickListener {
 
-            val showPhotoIntent = Intent(getApplicationContext(), Mvvm_Activity::class.java)
+            val showPhotoIntent = Intent(getApplicationContext(), ProductInputActivity::class.java)
 
             startActivity(showPhotoIntent)
 
@@ -50,6 +56,23 @@ class MainActivity : AppCompatActivity() {
             startActivity(showPhotoIntent)
 
         }
+
+        systemcode_button.setOnClickListener {
+
+            val showPhotoIntent = Intent(getApplicationContext(), Systemcode_mainactivity::class.java)
+
+            startActivity(showPhotoIntent)
+
+        }
+
+        bottomnavigationbutton.setOnClickListener {
+
+            val showPhotoIntent = Intent(getApplicationContext(), Bottom_navigation::class.java)
+
+            startActivity(showPhotoIntent)
+
+        }
+
 
     }
 

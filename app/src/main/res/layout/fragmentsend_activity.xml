@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/holo_blue_dark"
             android:padding="10dp"
-            android:text="Send Message"
+            android:text="@string/send_data"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 </LinearLayout>

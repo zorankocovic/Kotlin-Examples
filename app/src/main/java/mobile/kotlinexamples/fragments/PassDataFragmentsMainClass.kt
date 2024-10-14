@@ -8,6 +8,8 @@ class PassDataFragmentsMainClass : AppCompatActivity(), Communicator {
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_passdatafragmentsmain)
+        val actionbar = supportActionBar
+        actionbar!!.title = "Pass data between fragments"
         val firstFragment = FragmentSend()
         supportFragmentManager.beginTransaction().replace(R.id.relativeLayout, firstFragment)
             .commit()

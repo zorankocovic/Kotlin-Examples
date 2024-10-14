@@ -17,6 +17,8 @@ class Popupwindow : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.popuwindow)
+        val actionbar = supportActionBar
+        actionbar!!.title = "Popup Menu"
         val popup_button = findViewById(R.id.popupbutton) as Button
 
         popup_button.setOnClickListener {

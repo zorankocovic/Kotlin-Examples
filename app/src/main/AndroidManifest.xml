@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="mobile.kotlinexamples">
+        xmlns:tools="http://schemas.android.com/tools"
+        package="mobile.kotlinexamples">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+            tools:ignore="ProtectedPermissions" />
+
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
@@ -30,11 +36,34 @@
                 android:screenOrientation="portrait"
 
                 />
-        <activity android:name="mobile.kotlinexamples.mvvm.Mvvm_Activity"
+        <activity android:name="mobile.kotlinexamples.mvvm.ProductInputActivity"
                 android:screenOrientation="portrait"
 
                 />
+
+
+
         <activity android:name="mobile.kotlinexamples.Popupwindow"
+                android:screenOrientation="portrait"
+
+                />
+
+        <activity android:name="mobile.kotlinexamples.Systemcode_mainactivity"
+                android:screenOrientation="portrait"
+
+                />
+
+        <activity android:name="mobile.kotlinexamples.systemcode.ScreenWidtHeight"
+                android:screenOrientation="portrait"
+
+                />
+
+        <activity android:name="mobile.kotlinexamples.systemcode.PhoneDetails"
+                android:screenOrientation="portrait"
+
+                />
+
+        <activity android:name="mobile.kotlinexamples.navigation.Bottom_navigation"
                 android:screenOrientation="portrait"
 
                 />

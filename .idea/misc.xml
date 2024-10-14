@@ -3,11 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/activity_bottomnavigation.xml" value="0.25" />
         <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/activity_main_mvvm.xml" value="0.196875" />
         <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/activity_passdatafragmentsmain.xml" value="0.196875" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/activity_product_display.xml" value="0.19583333333333333" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/activity_product_input.xml" value="0.196875" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.5" />
         <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/fragmentreceived_activity.xml" value="0.196875" />
         <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/fragmentsend_activity.xml" value="0.196875" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/item_mvvm.xml" value="0.196875" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/nav_header_main.xml" value="0.19583333333333333" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/phone_details.xml" value="0.1" />
         <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/popuwindow.xml" value="0.196875" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/product_item_mvvm.xml" value="0.196875" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/screenwidtheight_activity.xml" value="0.19583333333333333" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/layout/systemcode_maimenu.xml" value="0.19583333333333333" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/menu/activity_main_drawer.xml" value="0.19583333333333333" />
+        <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
         <entry key="..\:/android_project/studio/kotlin/github/JetPackRecycleView/app/src/main/res/menu/popup_example.xml" value="0.196875" />
       </map>
     </option>

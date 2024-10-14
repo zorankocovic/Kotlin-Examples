@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+
+        <!--text view for displaying course name-->
+        <TextView
+                android:id="@+id/idTVCourseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Bottom sheet dialog"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        <!--text view for displaying course tracks-->
+        <TextView
+                android:id="@+id/idTVCourseTracks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVCourseName"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+
+                android:text="Add here some action"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="#cccccc"
+                android:textSize="15sp" />
+
+        <!--text view for displaying course duration-->
+        <TextView
+                android:id="@+id/idTVCourseDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVCourseTracks"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="Add here some info"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+
+        <EditText
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/idTVCourseDuration"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="Insert some value here"
+                />
+
+
+
+        <!--button for dismissing our dialog-->
+
+        <Button
+                android:id="@+id/idBtnDismiss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/comment"
+                android:layout_margin="10dp"
+                android:text="Dismiss dialog"
+                android:textColor="@color/colorWhite"
+                android:background="#000000"
+                android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

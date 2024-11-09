@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object ApiClient {
 
 
-    var BASE_URL:String="http://panther.underscopemap.com/solutions/kotlin/jsonfiles/"
+    var BASE_URL:String="https://api.jsonsilo.com/public/"
     val getClient: ApiInterface
         get() {
 

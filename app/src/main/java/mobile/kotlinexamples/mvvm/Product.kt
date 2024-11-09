@@ -6,4 +6,4 @@ data class Product(
     @SerializedName("cityname")
     val name: String,
     @SerializedName("citynameto")
-    val eEmployeeCodeNumber: String)
+    val citynameto: String)

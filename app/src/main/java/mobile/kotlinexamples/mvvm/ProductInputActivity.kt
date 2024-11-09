@@ -25,11 +25,7 @@ class ProductInputActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product_input)
 
-        // Initialize ViewModel using application scope
-      /*  viewModel = ViewModelProvider(
-            this,
-            ViewModelProvider.AndroidViewModelFactory.getInstance(application)
-        )[ProductViewModel::class.java]*/
+
         viewModel = ViewModelProvider(this, ProductViewModelFactory())[ProductViewModel::class.java]
 
 

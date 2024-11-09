@@ -27,7 +27,7 @@ class ProductsAdapter  : ListAdapter<Product, ProductsAdapter.ProductsViewHolder
 
         fun bind(product: Product) {
             bookNameTextView.text = product.name
-            bookAuthorTextView.text = product.eEmployeeCodeNumber
+            bookAuthorTextView.text = product.citynameto
         }
     }
 

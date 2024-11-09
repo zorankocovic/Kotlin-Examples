@@ -33,11 +33,13 @@ class Jetpackrecycleview : AppCompatActivity() {
             override fun onResponse(call: Call<List<DataModel>>?, response: Response<List<DataModel>>?) {
 
 
-                response?.body()?.get(0)?.fullnameto?.let { Log.d("fullnameto", it) }
-                dataList.addAll(response!!.body()!!)
-                //   var adapter = SectionAdapter(Helper.Companion.getListViewModelList())
+                response?.body()?.get(0)?.citynameto?.let { Log.d("fullnameto", it) }
+                if (response != null) {
+                    response.body()?.let { dataList.addAll(it) }
+                }
+
                 rvRecyclerView.adapter?.notifyDataSetChanged()
-                // rvRecyclerView.adapter = adapter
+
             }
 
             override fun onFailure(call: Call<List<DataModel>>?, t: Throwable?) {

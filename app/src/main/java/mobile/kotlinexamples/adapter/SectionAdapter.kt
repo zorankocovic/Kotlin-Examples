@@ -18,7 +18,7 @@ class SectionAdapter (private var dataList: List<DataModel>) : RecyclerView.Adap
         val dataModel=dataList.get(position)
 
         holder?.txtTitle?.text =dataModel.name
-        holder?.txtContent?.text=dataModel.eEmployeeCodeNumber
+        holder?.txtContent?.text=dataModel.citynameto
 
     }
 
